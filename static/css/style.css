@@ -1,0 +1,21 @@
+:root{
+    font-size: 14px;
+    --bs-body-line-height: 1.2;
+}
+body{
+    font-family: Roboto, sans-serif;
+}
+b, .fw-bold, th{
+    font-weight: 500 !important;
+}
+.font-monospace{
+    font-family: Roboto Mono, monospace !important;
+}
+
+/*sm screen*/
+@media (max-width: 575.98px){
+    .container-xxl{
+        padding-left:0;
+        padding-right:0;
+    }
+}
